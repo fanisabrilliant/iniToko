@@ -29,7 +29,7 @@ public class Navigator {
             scene = new Scene(root, 900, 680);
             scene.getStylesheets().add(getClass().getResource("/kelas/styles/app.css").toExternalForm());
             stage.setScene(scene);
-            stage.setTitle("TokoApp - Daftar Produk Toko");
+            stage.setTitle("iniToko - Daftar Produk di iniToko");
             stage.setMinWidth(640);
             stage.setMinHeight(480);
         } else {
@@ -46,7 +46,7 @@ public class Navigator {
         tampil(root);
     }
 
-    // Halaman detail menerima objek Produk yang dipilih (bukan data tulisan langsung).
+    
     public void bukaDetail(Produk p) throws IOException {
         FXMLLoader l = loader("detail");
         Parent root = l.load();
