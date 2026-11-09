@@ -1,0 +1,62 @@
+.root {
+    -fx-font-family: "SansSerif";
+    -fx-font-size: 14px;
+    -fx-background-color: powderblue;
+}
+.header {
+    -fx-padding: 20 24;
+    -fx-background-color: black;
+    -fx-alignment: center-left;
+}
+.page {
+    -fx-padding: 24;
+}
+.card {
+    -fx-background-color: blanchedalmond;
+    -fx-background-radius: 14;
+    -fx-padding: 24;
+}
+.title {
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 65px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #18334d;
+}
+.subtitle {
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+}
+.muted {
+    -fx-text-fill: palevioletred;
+    -fx-font-size: 12px;
+}
+.error {
+    -fx-text-fill: red;
+}
+.button {
+    -fx-padding: 10 16;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+.button-primary {
+    -fx-background-color: whitesmoke;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+.button-primary:hover {
+    -fx-background-color: blueviolet;
+}
+.text-field, .combo-box {
+    -fx-background-radius: 7;
+    -fx-padding: 9;
+}
+.scroll-pane, .scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+.table-view {
+    -fx-background-color: black;
+    -fx-border-color: #e2e8f0;
+}
+.success {
+    -fx-text-fill: #15803d;
+}
